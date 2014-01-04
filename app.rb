@@ -4,5 +4,5 @@ require "bundler/setup"
 require "sinatra"
 
 get "/" do
-  "Hello"
+  erb :index
 end
