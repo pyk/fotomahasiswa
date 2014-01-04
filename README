@@ -1,10 +1,27 @@
 ----------------------------------------------------------------------
 *                           FOTOMAHASISWA                            *
 *                            VERSION 1.0                             *
-*             Another weekend project by github.com/pyk              *
+*             Another weekend project by @peeyek / @pyk              *
 ----------------------------------------------------------------------
+
 
 
 ABOUT
   Simple web app that show foto of all student on Universitas Airlangga
   based on their NIM (Nomor Induk Mahasiswa).
+
+HOW TO USE
+  enter an url:
+    
+    http://fotomahasiswa.herokuapp.com/NIM
+
+  Change NIM with your nim, or your friend NIM. for example:
+
+    http://fotomahasiswa.herokuapp.com/081211631011
+
+  it's a mas jojo NIM. he is a great* person :).
+  
+  * because jojo is the first person i have tell about
+  this stuff :D
+
+THANKS
