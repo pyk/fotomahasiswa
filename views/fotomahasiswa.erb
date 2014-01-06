@@ -6,10 +6,15 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 </head>
 <body style="margin:auto;width:600px;margin-top:20px" >
-  <div class="img-mahasiswa" style="text-align:center;">
-    <img src="https://cybercampus.unair.ac.id/foto_mhs/<%= @nim %>.JPG" alt="<%= @nim %>">
-    <p><b><%= @nim %></b></p>
+  <div class="alert alert-info">
+    <strong>hay!</strong> sapa bayu lewat <a href="http://twitter.com/peeyek" class="alert-link">twitternya @peeyek</a>, atau <a href="http://facebook.com/bayualdiyansyah" class="alert-link">Facebooknya</a>
   </div>
+  <div class="img-mahasiswa" style="text-align:center;">
+    <h3><%= @nama_fakultas %></h3>
+    <img src="https://cybercampus.unair.ac.id/foto_mhs/<%= @nim %>.JPG" alt="<%= @nim %>">
+    <p><%= "Angkatan 20" + @angkatan + " / " + @nim %></p>
+  </div>
+
   <pre style="text-align:center;background:#fff; border: none">
 ----------------------------------------------------------------------
 *                           <b>FOTOMAHASISWA</b>                            *
